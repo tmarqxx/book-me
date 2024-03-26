@@ -1,0 +1,18 @@
+{
+    "tasks": [
+        {
+            "type": "go",
+            "label": "go: build bookme",
+            "command": "build",
+            "args": [
+                "-o=tmp/bin/bookme",
+                "cmd/bookme/main.go"
+            ],
+            "problemMatcher": [
+                "$go"
+            ],
+            "group": "build",
+            "detail": "cd /home/tristan/code/personal/book-me; go build ${fileDirname}"
+        }
+    ]
+}
